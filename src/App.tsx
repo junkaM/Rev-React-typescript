@@ -1,8 +1,11 @@
-import { TaskManager } from "./components/TaskManager";
+import { TaskManagerts } from "./components/TaskManagerts";
 import "./App.css";
 
 function App() {
-  return <TaskManager />;
+  return <div>
+    <TaskManagerts /> 
+  </div>;
+
 }
 
 export default App;
